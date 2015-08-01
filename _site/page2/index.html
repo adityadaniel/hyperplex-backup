@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48711093-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta charset="UTF-8">
+  <title>Hyperplex</title>
+  <meta name="viewport" content="width=device-width">
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-alt.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="/assets/favicon32.png">
+  <link rel="icon" type="image/png" href="/assets/favicon16.png">
+  
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1>
+    <a href="/" title="Hyperplex: Home">
+    <img src="/assets/hyper_logo.png" alt="Hyperplex" height="56">
+    </a>
+    </h1>
+    <p>By Daniel Aditya Istyana</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/linked">Linked</a></li>  
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/adityadaniel">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://www.sektioneins.de/en/blog/15-07-07-dyld_print_to_file_lpe.html">OS X 10.10 DYLD_PRINT_TO_FILE Local Privilege Escalation Vulnerability</a>
+				<a class="anchor" href="/linked/2015/07/os-x-1010-dyld-print-to-file-local-privilege-escalation-vulnerability/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p><a href="https://twitter.com/i0n1c">Stefan Esser</a>:</p>
+
+<blockquote>
+  <p>With the release of OS X 10.10 Apple added some new features to the dynamic linker dyld. One of these features is the new environment variable <strong>DYLD_PRINT_TO_FILE</strong> that enables error logging to an arbitrary file.[…]. When this variable was added the usual safeguards that are required when adding support for new environment variables to the dynamic linker have not been used. Therefore it is possible to use this new feature even with SUID root binaries. This is dangerous, because it allows to open or create arbitrary files owned by the root user anywhere in the file system. Furthermore the opened log file is never closed and therefore its file descriptor is leaked into processes spawned by SUID binaries. This means child processes of SUID root processes can write to arbitrary files owned by the root user anywhere in the filesystem. This allows for easy privilege escalation in OS X 10.10.x.</p>
+</blockquote>
+
+<p>Furthermore Esser explained that this isn’t patched on OS X 10.10.4 or the beta 10.10.5 but get fixed on OS X El Capitan. If you’re on OS X 10.10.4, Esser offer interim fix on <a href="https://github.com/sektioneins/SUIDGuard">Github</a> but since it isn’t official fix, install at your own risk.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/apple-q3-2015-financial-reports/">Apple Q3 2015 Financial Reports</a></h1>
+		
+
+		<div class="post-content"><p>From today Apple’s Q3 2015 financial reports:</p>
+
+<ul>
+  <li>iPhone unit sales grew 35%, revenue grew even more up to 59%. It’s sold 47.5 million.</li>
+  <li>They sold 10.9 million iPad, lesser than two previous quarter with Q1 21.4 million, Q2 12.6 million. Let’s see if iOS 9 will give iPad sales bumps next quarter.</li>
+  <li>Mac is sold 4.8 million, slightly higher than previous quarter with 4.6 million. Market research firm IDC says that PC shipments <a href="/linked/2015/07/pc-sales-continue-to-fall/">drop up to 12%</a> while its rival, Garner says it fell down to 9.5%. At the same time, Apple’s Mac sales continue grew by 9%. Meanwhile Peter Cohen on <a href="http://www.imore.com/another-smashing-quarter-mac-sales-while-pc-sales-continue-drop">iMore</a>.</li>
+  <li>Apple earned 10.7 billion profit.</li>
+</ul>
+
+<p>If you want to see some chart about Apple Q3 financial report then <a href="http://www.macstories.net/news/apple-q3-2015-results-49-6-billion-revenue-47-5-million-iphones-10-9-million-ipads-sold/">Macstories</a> and <a href="http://sixcolors.com/post/2015/07/appleq3results/">SixColors</a> have it for you.</p>
+
+<p>Here’s some interesting tweet about Apple Q3 financial report:</p>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Other” was up $1B from last quarter. If Apple Watch ASP is $500, that’s 2 million watches.</p>&mdash; Eric Slivka (@eslivka) <a href="https://twitter.com/eslivka/status/623592897137537024">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">CNBC: TC says revenue in Greater China up ~112% in the quarter</p>&mdash; MacJournals.com (@macjournals) <a href="https://twitter.com/macjournals/status/623591670940971008">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whatever estimates u have for the AppleWatch 1 thing is for sure, Apple sold more Watches in 2Q15 than all other smartwatch vendors combined</p>&mdash; Francisco Jeronimo (@fjeronimo) <a href="https://twitter.com/fjeronimo/status/623609281821052928">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple’s Other product category is now a billion dollars bigger this quarter. In other words, Apple Watch is a multi-$bn business already</p>&mdash; Steve T-S (@stroughtonsmith) <a href="https://twitter.com/stroughtonsmith/status/623596899526905856">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also of note: Apple Watch was only in stores for /2 weeks/ of last quarter</p>&mdash; Steve T-S (@stroughtonsmith) <a href="https://twitter.com/stroughtonsmith/status/623598890336563200">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is unbelievable.&#10;&#10;Apple&#39;s cash pile is now almost as big as all of Greece&#39;s GDP <a href="http://t.co/HcGxtD8sMK">http://t.co/HcGxtD8sMK</a>&#10;&#10;<a href="https://twitter.com/search?q=%24AAPL&amp;src=ctag">$AAPL</a> <a href="http://t.co/gART94Ryru">pic.twitter.com/gART94Ryru</a></p>&mdash; StockTwits (@StockTwits) <a href="https://twitter.com/StockTwits/status/623605380699017216">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">iPhone is at the second highest price point it has ever achieved.</p>&mdash; Horace Dediu (@asymco) <a href="https://twitter.com/asymco/status/623600168366116864">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple saw the highest switching rate from Android they’ve ever measured, says Tim Cook.</p>&mdash; Matthew Panzarino (@panzer) <a href="https://twitter.com/panzer/status/623599708867567616">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I believe that Apple is the first company to break $1B in revenue for a wearable— and that&#39;s in less than a quarter.</p>&mdash; Carl Howe (@cdhowe) <a href="https://twitter.com/cdhowe/status/623626585510424576">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/theranos-and-why-it-matters/">Theranos and Why It Matters</a></h1>
+		
+
+		<div class="post-content"><p><a href="https://www.theranos.com/">Theranos</a> the startup company which offer low cost lab test is received approval from Food and Drug Administration to perform herpes simplex 1 test outside the lab, according to <a href="http://techcrunch.com/2015/07/18/theranos-gains-fda-approval-to-test-for-herpes-outside-the-lab/">TechCrunch</a>. The approval classified as CLIA Certificate waiver that will allow testing outside the lab with little error.</p>
+
+<p>The Founder, Elizabeth Holmes when <a href="http://www.bizjournals.com/sanfrancisco/blog/biotech/2014/09/theranos-elizabeth-holmes-disrupt-blood-test.html">talked at Techcrunch’s Disrupt Conferences</a> told that Theranos aim to perform lab test with only small amount of blood which can be obtained from a simple finger prick at low cost. Since I work as an QA Officer of one clinical laboratory, Theranos quickly gets my attention.</p>
+
+<p>First, I’m wondering what’s the technology behind Theranos device which make it’s possible to run the test with only few drops of blood. On a regular lab test, the patient’s blood need to be taken with venipuncture and processed to produce serum which we’ll run into analyzer. You’ve to go through pre-analytic, analytic and post-analytic process carefully to produce reliable and accurate result. When big analyzer perform test based on <a href="https://en.wikipedia.org/wiki/Spectrophotometry">spectrophotometry</a>, <a href="https://en.wikipedia.org/wiki/High-performance_liquid_chromatography">HPLC</a> even to <a href="https://en.wikipedia.org/wiki/Mass_spectrometry">mass-spectrophotometry</a> method to analyze sample, the question is what method does Theranos devices use to produce the result? The reliable result?</p>
+
+<p>Secondly, about <a href="https://en.wikipedia.org/wiki/Quality_control">quality control</a>. On regular lab test using analyzer, we need to perform quality control before we run patient’s sample. The purpose of running control is to ensure that all the test system which is used is running properly and produce acurate result. Again, the question is how the perform quality control on Theranos devices? Do they only need to be calibrated and you can use it o what?</p>
+
+<p>In addition besides method and quality control is cost. We all clinical laboratory try to give the best value for our customer. Ideally it would be low cost lab tes, quick turnaround time and acurate result. Maybe it’s no an apple to apple comparison since on the regular lab there would be a lot of additional material which is used in the process. But let me write this here, the new HSV1 which is newly got approved by FDA by Theranos costs $9.07, while today on our lab HSV1 costs approximately $22<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup> using automated analyzer. Theranos’ HbA1C test which is used to monitor average glucose level in the blood for the last 2-3 months, <a href="https://www.theranos.com/test-menu/test/82947">cost $6.67</a>, on us it’s $11.54.</p>
+
+<p>Of course the higher price not just from the reagen but also the result of the additional material we use to perform the test from pre to post analytic such as syringe and vacuum tube to collect the patient’s specimen, tube to store the serum and more.</p>
+
+<p>Sure, Theranos technology could benefit us to the future. Performing lab testing outside laborartory with less errors means we could bring the device to remote areas. It would be more practical tho. The patient also could take the benefit from its system since it would be less pain when obtaining specimen, less blood to be taken.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Based on exchange rate this post is written since we use different currency <a href="#fnref:fn1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://blogs.wsj.com/digits/2015/07/09/pc-sales-continue-to-fall/">PC Sales Continue to Fall</a>
+				<a class="anchor" href="/linked/2015/07/pc-sales-continue-to-fall/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Robert McMillan writing for WSJ:</p>
+
+<blockquote>
+  <p>Worldwide PC shipments saw their sharpest decline in nearly two years in the second quarter of 2015, dealing continued damage to retailers and makers of computers, chips and PC software.</p>
+
+  <p>Shipments fell 9.5 percent, year on year, to 68.4 million units, according to the research firm Gartner. Rival researcher IDC, which doesn’t include tablets in its tally, tracked an 11.8 percent drop, year on year, to 66.1 million shipments during the quarter. Both firms released PC sales reports on Wednesday</p>
+</blockquote>
+
+<p>So is it confirmed that <a href="/linked/2015/07/apples-mac-is-now-the-only-major-pc-brand-thats-growing/">Mac is the only major PC brand thats growing</a>? I think so.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://www.birchtree.me/blog/who-buys-ipods">Who's Actually Buying iPods These Days?</a>
+				<a class="anchor" href="/linked/2015/07/whos-actually-buying-ipods-these-days/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Sometimes we need to see some things from different perspective and Matt Birchler shared to us who actually buy iPod these days as he worked managing electronic departement at target.</p>
+
+<p>Matt Birchler:</p>
+
+<blockquote>
+  <p>So who are iPods for? They’re for people who don’t have a smartphone, and that’s about it. This makes complete sense, though. The smartphone came in and ate so many products’ lunch. Apple’s iPhone can do everything these iPods can do and do so much more as well. A smartphone is almost essential if you’re a young to middle age adult these days, so you probably already have one in your pocket. For that majority of the population, iPods are redundant, and they don’t even think about them most of the time.</p>
+
+  <p>iPods remain somewhat relevant amongst the very young and very old. But once again, the rise of affordable tablets has made even those markets shrink by the day. It’s hard to think the iPod line is going to do anything but continue shrink even with this refresh.</p>
+</blockquote>
+
+<p>I remember back when I got my first iPod Touch 4G on 2011. It’s beautiful device even the back scratch so easily. I purchased it for mostly played games and dumped my music collections there. It’s great device to killing time but with now iPhone take the world and large screen iPad become more affordable, it just the matter of time till Apple kill the iPod line up. Or maybe I’m wrong.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://www.nasa.gov/image-feature/goddard/views-of-pluto-through-the-years">Views of Pluto Through the Years</a>
+				<a class="anchor" href="/linked/2015/07/views-of-pluto-through-the-years/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>The faces of Pluto since first captured in 1930 till now when the New Horizons spacecraft flyby and took closer images of the dwarf planet.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://smilesoftware.com/blog/entry/fun-with-textexpander-and-scripting">Fun with TextExpander and Scripting</a>
+				<a class="anchor" href="/linked/2015/07/fun-with-textexpander-and-scripting/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>TextExpander 5 now supports JavaScript snippets and it can run on iPhone, iPad, and Mac. This is one of the snippets sample using JavaScript which will round the current date to the closest 5 minutes.</p>
+
+<p>This app is really a time saver. If you haven’t use it, now it’s time to <a href="https://itunes.apple.com/us/app/id917416298&amp;at=1010lDx&amp;ct=aditya">get ‘em</a></p>
+
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://searchengineland.com/google-is-hiring-an-seo-to-improve-their-ranking-in-google-225320">Google Is Hiring An SEO Manager To Improve Its Rankings In Google</a>
+				<a class="anchor" href="/linked/2015/07/google-is-hiring-an-seo-manager-to-improve-its-rankings-in-google/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>If this is for real, they must be doomed.</p>
+
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/late-thought-on-ios-9/">Late Thought on iOS 9</a></h1>
+		
+
+		<div class="post-content"><p>Apple has announced <a href="https://www.apple.com/ios/ios9-preview/">iOS 9</a>. Focus on the optimizations and stability improvements Apple also add some features who boost functionality on iOS even some of the features they add such as trackpad mode on keyboard and picture in picture could be achieved with being jailbroken. For the last two years, Apple adds a lot of features on iOS which lesser the reason to jailbreak. The number of my installed tweak after being jailbroken is also lesser each new iOS version is released.</p>
+
+<p>Some people said that Apple borrow ideas from jailbreak scenes and build it into their next iOS release. I still remember how iOS 7 adopt control center which back then on iOS 6 we could achieve that with tweaks named <a href="http://cydia.saurik.com/package/sbsettings">SBSettings</a> and <a href="http://modmyi.com/cydia/com.jamied360.ncsettings">NCSettings</a>. <a href="http://www.iphonehacks.com/2013/06/ios-7-features-inspired-by-jailbreak-tweaks.html">Nine features</a> Apple borrowed from jailbreak scene for iOS 7.</p>
+
+<p>On iOS 8, once again Apple adopt some of tweaks that extends some functionality on iOS which already present when you were jailbroken such as quick reply, third party keyboard, Notification Center widgets, Touch ID extensions to secure third party apps, and the <a href="http://www.redmondpie.com/ios-8-features-apple-copied-from-jailbreak-tweaks/">list go on.</a></p>
+
+<p>iOS 9? They still did it.</p>
+
+<p>I wait for iOS 9 public beta and I installed it yesterday. I installed on my iPad Air and as beta software, there’s bug and crash. Just a kindly reminder, don’t install it on your primary devices to avoid data loss. Apple give iPad a lot of attention on iOS 9 and here’s my thought about it:</p>
+
+<h2 id="siri--search">Siri &amp; Search</h2>
+
+<h3 id="siri">Siri</h3>
+<p>Siri gets a new look in iOS 9, matched with Siri on Apple Watch interface. Proactive Siri, yes, the virtual assistant will try to predict what will you do next, seems scary? Don’t worry, since Apple need to gather your datas to give personalize experience, you data never be uploaded to the cloud instead it stay in your device. It’s yours. It’s also good from user privacy and security standpoint.</p>
+
+<h3 id="search">Search</h3>
+<p>Spotlight gets supercharged. You can now search using natural language just like talking to human. With deep and back links, search result will not always web page as the previous iOS version.</p>
+
+<p>On iOS 9 when you search for a restaurant and there’s a result from Zomato, instead of opening Zomato’s web you’ll brought to search result page within Zomato app if installed. After you finish with what you’re looking for, you can tap the label “Back to Search” on the top left side to back to the Spotlight search.</p>
+
+<p>Sadly, Apple will only allow official apps to use deep and back link. It means if you’ll look for a person’s Twitter profile, you’ll brought to the official Twitter app and not the third party Twitter client your choice such as Tweetbot or Twitterrific.</p>
+
+<h2 id="notes">Notes</h2>
+
+<p>Notes get big overhaul in iOS 9 and OS X El Capitan. You can now insert photo, PDF files, videos, weblinks and more to make contents inside it richer than just rich text formatting. You can drag n drop to OS X El Capitan Notes apps to insert files. While on iOS, you can utilize share sheets. Not stopping there, you can doodling inside Notes app on iOS 9 and OS X El Capitan. Apple also add sync and search features since it’s tied to iCloud account. When you make a new note on iPhone, it’ll available on all of your devices with the same iCloud accounts. Even it’s not as advance as <a href="http://evernote.com/">Evernote</a>, yet, but finally Apple give attention to its Notes apps to shorten the gap with third party note taking apps.</p>
+
+<h2 id="quicktype">Quicktype</h2>
+
+<p>Quicktype was the name of the keyboard Apple announced last year. On iOS 9, Apple optimize it. The most noticeable is now Apple visualize lower and uppercase on its keyboard, make it easier to know what case you’ll type next. For a long time jailbroken iOS devices user, I’ve been use this features with the tweak called <a href="http://cydia.saurik.com/package/jp.ashikase.showcase/">ShowCase</a>. It’s easier to see than to glance at the shift key<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup>. Apple also let you to disable the pop-up as you type on its keyboard. iPad will gain more benefit on iOS 9 as Apple optimize its keyboard, I’ll tell you why:</p>
+
+<h3 id="shortcut-and-trackpads">Shortcut and trackpads</h3>
+
+<p>On iPad, Apple add a new bar above the keyboard. Not just showing predictions about what will you type, it now also contains several button to let you cut, copy, paste to the left side. For formatting, Apple add shortcuts to bold, italic or underline selected text shortcut to the right side.</p>
+
+<p>At least Apple granted my iOS 9 wishlist<sup id="fnref:fn2"><a href="#fn:fn2" class="footnote">2</a></sup> with bringing a features that allow user to move the cursor and select some text with just swiping over the keyboard. On jailbroken iOS devices, you can have this functionality by install <a href="http://cydia.saurik.com/package/com.iky1e.swipeselection/">SwipeSelection</a> tweak. Maybe this is the reason why I still jailbreak my iOS devices. This tweak offers moving cursor just by swiping over the keyboard and you can select some text just by swipe from shift or backspace key. On iOS 9, Apple let you to move cursor by placing and swipe using two fingers on the keyboard. Even the implementation is little bit different but I’m happy that finally Apple bring this features.</p>
+
+<p>Some sources said that it works on iPad only but I’ve been asked some people on Twitter that it works on iPhone too. Anyone confirm?</p>
+
+<h2 id="multitasking">Multitasking</h2>
+
+<p>Apple brings more advanced multitasking features on iPad with iOS 9. 
+With the new multitasking features on iOS 9, Apple push iPad to become <a href="http://www.macstories.net/stories/ipad-air-2-review-why-the-ipad-became-my-main-computer/">primary computer for some people</a>. iOS 9 will boost iPad functionality than just consuming devices.</p>
+
+<h3 id="slide-over">Slide Over</h3>
+<p>Works on iPad Air, iPad Air 2, iPad mini 2, and iPad mini 3 it allows you to bring access to the second app without leaving the primary app you’ve opened. You can reply to your girlfriend’s iMessages without need to leave Safari while reading or browsing something<sup id="fnref:fn3"><a href="#fn:fn3" class="footnote">3</a></sup>. Once you reply it, you can dismiss the Slide Over sidebar and continue reading or browsing or whatever you’re currently doing. You just need to swipe from the right edge of the display just like as easy as accessing Control Center to invoke Slide Over. You can’t interact with the primary app while accessing the app you open with Slide Over.</p>
+
+<h3 id="split-view">Split View</h3>
+
+<p>Available only for iPad Air 2, Split View features brings true multitasking to iPad which allow you to interact with two apps with the same time. It will be useful when you’re doing research using Safari and Notes app side by side. The implementation doesn’t feel intrusive at all. You have to own an iPad Air 2 with 2 GB RAM and Apple A8X processors. I wonder if someday iOS 9 is jailbreakable, would there’ll be a tweak to enable Split View on older devices? Today on jailbreak world there’s <a href="http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mirmirDp">Mirmir</a> tweak that bring multitasking further than iOS stocks today<sup id="fnref:fn4"><a href="#fn:fn4" class="footnote">4</a></sup>. With this tweak you can run 4 apps simultaneously on iPad. With Split View near in the future, I would like to see a tweak to enable it natively for older devices.</p>
+
+<h3 id="picture-in-picture">Picture in Picture</h3>
+
+<p>In short words, you can now watch or stream videos in a floating window so you could browsing or tweeting at the same time.</p>
+
+<p>Meanwhile, <a href="http://rpetri.ch/cydia/videopane/">VideoPane</a></p>
+
+<p>All of this multitasking on iOS 9 would give great benefit for iPad. With larger display, user can utilize it to do more than just stock iOS do pre iOS 9. Maybe Apple would give iPad a shot to become productivity tablet everyone should have because of the decreased number of sales.</p>
+
+<h2 id="security">Security</h2>
+
+<p>6 digits passcode instead of 4, built in <a href="https://developer.apple.com/support/two-factor-authentication/">2-factor authentication</a>, Better App Transport Security, and a better approach to data operations which Apple doesn’t following what competitors did by uploading personal data to the cloud to give personalize service. Apple store the data on the device and compute there so you don’t have to worry about your personal data on Apple’s server.</p>
+
+<h2 id="update-to-ios-9">Update to iOS 9</h2>
+
+<p>Updating to iOS 8 is sure a big problem, literally. You need almost 5GB empty space on your devices to perform OTA Update. However, iOS 9 will only need 1.3GB. Apple also offers to delete some apps if your empty space isn’t sufficient to perform the update and reinstall it after the update is done. Overmore, there’s a new technology Apple introduced with iOS 9 called <a href="https://developer.apple.com/library/prerelease/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html#//apple_ref/doc/uid/TP40012582-CH35">App Thinning</a> which is split into 3 different mechanisms that can reduce the size of an app. App slicing, On Demand Resources(ODRs) and Bitcode. You can read the explanation about how these three mechanisms work on <a href="http://arstechnica.com/apple/2015/06/app-thinning-will-be-a-major-boon-for-8gb-and-16gb-iphones-and-ipads/">ArsTechnica</a>. They explained it in details and why it matters for iOS devices with 8GB and 16GB storage.</p>
+
+<h2 id="so">So?</h2>
+
+<p>It’s good to see that Apple slowly make iOS more open than it was, with third party keyboard, Touch ID API, Notification Center widgets, iOS is more customizeable than previous version. Make iOS more open is a story, balancing it with user privacy and security is another story.</p>
+
+<p>Nightmode, one features I wished that could change iOS color scheme to dark isn’t delivered by Apple. The purpose of Nightmode is to make using iOS more pleasant to use at night. When you use iOS at night, our eyes become tired easily because of the mainly white color on iOS today, even when you’ve turned down the brightness into lowest point.</p>
+
+<p>iOS 9 not just brings optimizations and stability improvements but also bunch of features that boost functionality, especially for iPad. With multitasking features and keyboard shortcut, Apple push iPad to become productivity tablet without intention to replacing Mac.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Which is confusing and Apple takes a long time to fix it <a href="#fnref:fn1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2">
+      <p>It’s my old website that talks about tech before this site is up, I’ll just let it there. You know, memories, archives or whatever you called it <a href="#fnref:fn2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn3">
+      <p>Win-win solution, huh?! <a href="#fnref:fn3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn4">
+      <p>You can read iDownloadblog review <a href="http://www.idownloadblog.com/2015/06/30/mimir-multiple-apps-multitasking-ios-8-3/">here</a> <a href="#fnref:fn4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://www.theverge.com/2015/7/15/8968345/satoru-iwata-heart-of-a-gamer-gdc-2005-video">Watch Satoru Iwata's inspiring GDC 2005 talk in full</a>
+				<a class="anchor" href="/linked/2015/07/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content">
+</div>
+
+	</article>
+
+
+
+
+
+
+	<div class="postnavigation">
+
+		
+			
+				<a class="prev left" href="/">&larr; Newer</a>
+			
+		
+
+		<span class="pages">Page 2 of 5</span>
+
+		
+			<a class="next right" href="/page3/">Older &rarr;</a>
+		
+
+	</div>
+
+    </div>
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2015 Hyperplex.
+  </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+</body>
+</html>

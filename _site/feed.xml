@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hyperplex</title>
+		<description>A blog by Daniel Aditya Istyana which will talk about technology and news arounds Apple. Sometimes you've nothing to read here and of course it leads nowhere.</description>
+		<link>http://hyperplex.co</link>
+		<atom:link href="http://hyperplex.co/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Apple Music Matches Files with Metadata Only, not Acoustic Fingerprinting</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Kirk McElhearn:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a very big problem with Apple Music. Since Apple already has the technology to match tracks using acoustic fingerprinting, they should be using this with Apple Music. Instead, it’s using scattershot matching, which results in lots of tracks showing up as being from different albums, from compilations, or totally different versions of songs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;/article/2015/07/the-apple-music-sad-story/&quot;&gt;The sad story of Apple Music&lt;/a&gt; seems continue with the big problem of matching music method they use.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 01 Aug 2015 08:58:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/08/apple-music-matches-files-with-metadata-only-not-acoustic-fingerprinting/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/08/apple-music-matches-files-with-metadata-only-not-acoustic-fingerprinting/</guid>
+			</item>
+		
+			<item>
+				<title>iTunes Is the Locus of Everything Apple Is Doing Wrong</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Khoi Vinh:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On just one level, the application is an executional mess that speaks to the company’s worrying inattention to detail. iTunes is slow and bloated; it’s a terrible, poky, unreliable network client; it’s embedded into the operating system and yet works well with few other apps; its management of iOS devices (for those who don’t use iCloud) is painfully inelegant. And if all that weren’t enough, it just looks incredibly ugly. […] How much can one expect from the most profitable company in history? It’s certainly not asking too much for iTunes, which is in so many ways the front door for the Apple ecosystem, to be less of a shabby doorway and more of a grand entrance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				<pubDate>Fri, 31 Jul 2015 15:42:47 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/itunes-is-the-locus-of-everything-apple-is-doing-wrong/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/itunes-is-the-locus-of-everything-apple-is-doing-wrong/</guid>
+			</item>
+		
+			<item>
+				<title>Reeder 3 for Mac</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;My favorite applications to follow blogs and latest news, Reeder 3 for Mac now enters public beta. The most noticeable changes is now Reeder 3 bring flatter and blurry OS X Yosemite looks. If you living dangerously with installing OS X El Capitan just like me, Reeder 3 also supports the new San Francisco fonts.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 31 Jul 2015 10:21:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/reeder-30-for-mac-public-beta/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/reeder-30-for-mac-public-beta/</guid>
+			</item>
+		
+			<item>
+				<title>A Security Writer Says Goodbye to Android</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Security writer from Motherboard, Lorenzo Franceschi-Bicchierai:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the fundamental difference between Android and iPhone. When there’s a bug on iOS, Apple patches it and can push an update to all iPhone users as soon as it’s ready, no questions asked.&lt;/p&gt;
+
+  &lt;p&gt;When the same thing happens with Android, Google patches and then… god knows when the AT&amp;amp;Ts, Verizons, HTCs, and Sonys of the world will decide it’s important enough that they should care and send you the update with the patch (though to their credit, they’re starting to care, mostly because having an updated OS is now seen as a competitive advantage). Hell, even Google-owned Nexus phones, which the company has full control over, haven’t been patched for Stagefright yet.[…]&lt;/p&gt;
+
+  &lt;p&gt;You can keep your Android phone with that modified version of Android that your carrier or manufacturer has decided to put on it, and get security updates weeks late, or never (if you have a Nexus you’re better off, but who knows if Google is going to keep making Nexus phones in the future).&lt;/p&gt;
+
+  &lt;p&gt;Or you can root your phone and install the excellent and more swiftly updated Android-based operating system CyanogenMod on it. This is a good alternative, but it’s not trivial to install CyanogenMod, and updates for certain phones depend on volunteers, so, again, you might not get them as soon as you’d wish.&lt;/p&gt;
+
+  &lt;p&gt;Or, lastly, you can give up, switch to Apple and buy an iPhone.&lt;/p&gt;
+
+  &lt;p&gt;As much as my old self will hate me, I’m going to choose the last option.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, I know it sucks when you have to join the dark side you hate but at least now you safe.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 30 Jul 2015 20:00:02 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/a-security-writer-says-goodbye-to-android/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/a-security-writer-says-goodbye-to-android/</guid>
+			</item>
+		
+			<item>
+				<title>Why I Don't Read Email in the Morning</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;&lt;a href=&quot;http://twitter.com/roidrage&quot;&gt;Mathias Mayer&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Try this out for a week. Instead of opening email in the morning, open your notebook and write down two or three tasks that you want to get done before lunch. Then work through them. What you can get done in just two hours and by focusing only on work is pure magic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is why you don’t have to open and get inbox zero at the morning.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 30 Jul 2015 15:30:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/why-i-dont-read-email-in-the-morning/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/why-i-dont-read-email-in-the-morning/</guid>
+			</item>
+		
+			<item>
+				<title>Hide preference panes from System Preferences</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;A nice little tip by Dan Morren about hiding prefeerence panes.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 29 Jul 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/tip-hide-preference-panes-from-system-preferences/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/tip-hide-preference-panes-from-system-preferences/</guid>
+			</item>
+		
+			<item>
+				<title>The Apple Music Sad Story</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;&lt;a href=&quot;http://www.marco.org/2015/07/26/dont-order-the-fish&quot;&gt;Marco Arment&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;iTunes is designed by the Junk Drawer Method: when enough cruft has built up that somebody tells the team to redesign it, while also adding and heavily promoting these great new features in the UI that are really important to the company’s other interests and are absolutely non-negotiable, the only thing they can really do is hide all of the old complexity in new places.&lt;/p&gt;
+
+  &lt;p&gt;With the introduction of Apple Music, Apple confusingly introduced a confusing service backed by the iTunes Store that’s confusingly integrated into iTunes and the iOS Music app (don’t even get me started on that) and partially, maybe, mostly replaces the also very confusing and historically unreliable iTunes Match.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.loopinsight.com/2015/07/22/apple-music-is-a-nightmare-and-im-done-with-it/&quot;&gt;Jim Dalrymple loss his music library&lt;/a&gt; after Apple Music is launched to public. I never thought that Apple would get into this trouble before. I expected that Apple Music would be a great replacement of Spotify which I use before. Eventhough I’m not losing my music library, I have bad experience with Apple Music.&lt;/p&gt;
+
+&lt;p&gt;This bad experience happens on iOS Music app. When I find a great playlist as suggested by Apple Music, I added them to my playlist collection but it showed nothing. There’s no songs on that playlist, even there’s no playlist cover as seen on search result. Next, I tried to create my own playlist based on my favorite songs of various artist. I created the playlist and go to the For You tab. I searched various songs and add them on the newly created playlist around 30 songs. But, again, it showed no songs. Bad. Pretty Bad.&lt;/p&gt;
+
+&lt;p&gt;I know the purpose of baking Apple Music with iOS music apps but pardon me, can I categorize it as bloated software now? The interaction is confusing and there’s to many menu. Similarly with iTunes and I agree with Macro Arment on his blog post. I would love to see a new app, a standalone app for Apple Music on Mac.&lt;/p&gt;
+
+&lt;p&gt;Messing up with personal stuff like musics or photos is indeed a terrible idea. If Apple do a great job with Photos app on Mac, why not taking the same path for Apple Music?&lt;/p&gt;
+</description>
+				<pubDate>Tue, 28 Jul 2015 17:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/07/the-apple-music-sad-story/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/the-apple-music-sad-story/</guid>
+			</item>
+		
+			<item>
+				<title>Jekyll, Github, and Dropbox</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;As everyone knows, this blog run on &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and the nice part about that is I just need to write the post in markdown formatted text and Jekyll take the rest. Jekyll also has many plugins so you can “hack” it to suit your needs. If you need to showcase your favorite musics, gadgets you own, achievment you get, you can use Jekyll collections.&lt;/p&gt;
+
+&lt;p&gt;The other advantages using Jekyll is it works out of the box with Github Pages.You can host your site on &lt;a href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt; and will just render it okay. Furthermore, it’s free&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Other than that, Github let you keep track your site using its versioning system. Sounds nice, huh?&lt;/p&gt;
+
+&lt;p&gt;Let’s put things together. My Jekyll site live in my Mac local folder. Since I’ve to work using PC at my day work I need a service to let me synchronize files between that two machines so I can still write blog posts from my work PC. &lt;a href=&quot;https://dropbox.com&quot;&gt;Dropbox&lt;/a&gt; to the rescue. Since I don’t want to put my entire site folder on my Dropbox so I just created symlink into it.&lt;/p&gt;
+
+&lt;p&gt;With all of this I have this site backup in Dropbox and Github server. I can now write on my PC at work, continue the drafts on my Mac and after I finish it, I have glynn command to deploy it to my hosting. Every changes is pushed to Github too and because I’m to lazy to type every single command into terminal, I make a &lt;a href=&quot;http://www.keyboardmaestro.com/main/&quot;&gt;Keyboard Maestro&lt;/a&gt; macros that hold every command into one and send a growl notifications when it finished.&lt;/p&gt;
+
+&lt;p&gt;So, is everyone happy now? Me, definitely.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn1&quot;&gt;
+      &lt;p&gt;Hey, who doesn’t want free things? &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Sat, 25 Jul 2015 17:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/07/jekyll-github-and-dropbox/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/jekyll-github-and-dropbox/</guid>
+			</item>
+		
+			<item>
+				<title>Explain like I’m five&#58; Jekyll collections</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Ben Balter explaining how does collections in Jekyll work. I’m not using this features yet and haven’t figure out what collections I’m gonna add this site but let me put this here.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 25 Jul 2015 16:07:56 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</guid>
+			</item>
+		
+			<item>
+				<title>Plotting Apple</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Dr. Drang has interesting takes on plotting Apple’s sales and revenue using Python/ Matplotlib code:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Every data point in the graph (except for the first three for each device) represents an average of the sales for four quarters: the current quarter and the previous three. The idea behind the averaging is to smooth out the strongly seasonal ups and downs in the raw quarterly data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				<pubDate>Fri, 24 Jul 2015 16:52:26 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/plotting-apple/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/plotting-apple/</guid>
+			</item>
+		
+	</channel>
+</rss>

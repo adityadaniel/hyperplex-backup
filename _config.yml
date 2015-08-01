@@ -1,0 +1,16 @@
+name: Hyperplex
+url: http://hyperplex.co
+description: A blog by Daniel Aditya Istyana which will talk about technology and news arounds Apple. Sometimes you've nothing to read here and of course it leads nowhere.
+permalink: /:categories/:year/:month/:title/
+category_dir: /categories/
+paginate: 10
+highlighter: pygments
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', '_glynn.yml']
+instagram_cache: true
+instagram_cache_directory: .instagram_cache
+gems: ['jekyll-twitter-plugin', 'jekyll-sitemap']
+twitter:
+  consumer_key: tv4dm6d5KhCIZFI6zWsIqi4Si
+  consumer_secret: VueScyC7W3qRYMCwOpQwvm7XpKWhGPF7mDjsE5MJOt3hunysmC
+  access_token: 535963777-1HsBVhV7ETBFZ0cCwvLBXVVPa9ug8kUFqtGksQjf
+  access_token_secret: hdxchATdVhLDYciyma8OBIE2ZVNZenhN0sjvRX2UJrL4h

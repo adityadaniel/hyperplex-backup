@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48711093-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <meta charset="UTF-8">
+  <title>Hyperplex</title>
+  <meta name="viewport" content="width=device-width">
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-alt.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="/assets/favicon32.png">
+  <link rel="icon" type="image/png" href="/assets/favicon16.png">
+  
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1>
+    <a href="/" title="Hyperplex: Home">
+    <img src="/assets/hyper_logo.png" alt="Hyperplex" height="56">
+    </a>
+    </h1>
+    <p>By Daniel Aditya Istyana</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/linked">Linked</a></li>  
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/adityadaniel">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://thenextweb.com/apps/2015/06/27/blackberry-adds-private-messaging-to-bbm-on-ios-and-android/">BlackBerry adds private chat feature to BBM on iOS and Android</a>
+				<a class="anchor" href="/linked/2015/06/blackberry-adds-private-chat-features/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>From The Next Web:</p>
+
+<blockquote>
+  <p>Where BlackBerry used to offer a ‘Timed and Retracted Control’ subscription, there’s now a Privacy and Control subscription that costs $0.99 per month. In addition to providing the timed sending and retraction of messages options, the plan also includes the new private chat feature and another new feature that allows you to edit a sent message by retracting it, editing it and then re-sending it.</p>
+</blockquote>
+
+<p>From what it is, I guess they are trying so hard to make profit from its instant messaging services.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://m.imore.com/apple-music-faq">Apple Music FAQ: Everything you need to know</a>
+				<a class="anchor" href="/linked/2015/06/apple%20music%20faq/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>I’m holding on to not renew my Spotify premium because of this. If you plan to subscrice to a music streaming service then just wait a little bit and read this FAQ on iMore by Serenity Caldwell</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/06/create-linked-blog-post-on-the-go-with-workflow/">Create Linked Blog Post On The Go With Workflow</a></h1>
+		
+
+		<div class="post-content"><p>Before I run this site on Jekyll I’ve tried many blogging platform like Tumblr, self-hosted Wordpress, to Octopress, a static site generator based on <a href="http://jekyllrb.com/">Jekyll</a>. There’s a great thing about static site generator, all you have to do is write the post in plain text markdown formatted file and fill all the yaml front-matter as your post metadata. You can write any post from an iPhone, iPad as long as you follow the formatting you’ve set up.</p>
+
+<p>I also published linked post from an article I find interesting around the web and since I mostly spend my time using my iPhone and iPad I need to automate the linked post creation. Sure, all of you who using iPhone, iPad or iPod Touch have heard about Workflow. Workflow is an app that can automate things on iOS. Using this, you can automate mundane task on iOS such as combining screenshot, journaling, to cross-posting content to all of your social media accounts.</p>
+
+<p>Besides using <a href="https://itunes.apple.com/id/app/workflow-powerful-automation/id915249334?mt=8&amp;uo=4&amp;at=1010lDx&amp;ct=aditya">Workflow</a>, I also use <a href="https://itunes.apple.com/id/app/drafts-4-quickly-capture-notes/id905337691?mt=8&amp;uo=4&amp;at=1010lDx&amp;ct=trl">Drafts</a> to edit the linked post before I publish it. Drafts is where text starts from iOS and you could send them anywhere. With the keyboard actions overmore, you can manipulate the text you write such as make it uppercase or titlecase without hassle. Workflow and Drafts are the must-have apps on your iOS devices.</p>
+
+<p>So combining those two apps, I could make a linked post in a minute. So, here’s the magic of the Workflow apps, I built a workflow as an action extension that takes URL from Safari as an input. From the URL input, the workflow will put the title page, url and selected text into variables which is used to fill the yaml front-matter. In Jekyll, the post you write have to save in certain formatted date and hyphenated words which will become the post URL. Using Workflow’s date actions and combine text I’m able to get this done.</p>
+
+<p>In the end of the workflow, I have “add to Drafts” actions that will create a draft with linked post format for this site. From there I just need send it to my Dropbox and deploy it to my web server.</p>
+
+<p>Here’s the screenshot of the workflow:</p>
+
+<p><img src="/images/linked-post-workflow.png" alt="Linked Post Workflow" /></p>
+
+<p>If you use Jekyll or any other static site generator you can tweak the workflow to suit your needs. You can <a href="https://workflow.is/workflows/29f8e16f05e44fa68c8ade64ff628842">get it here</a></p>
+
+<p>With this workflow, I can linked any articles wherever without worrying I don’t bring my Macbook.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://9to5mac.com/2015/06/23/ios-9-delete-apps-free-space/">iOS 9 Allows Users to Temporarily Delete Apps to Free Up Space for Software Updates</a>
+				<a class="anchor" href="/linked/2015/06/ios-9-allows-users-to-temporarily-delete-apps-to-free-up-space-for-software-updates/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Mike Beasley writings for 9to5Mac:</p>
+
+<blockquote>
+  <p>This new feature will allow the operating system to intelligently delete applications if you don’t have enough free space to perform a software update. Once the update is complete, the apps will automatically be reinstalled and your data will remain intact.</p>
+</blockquote>
+
+<p>It’s glad to hear this and know that Apple is still responsible for selling 16GB iOS device and make it less painful to use.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://www.macworld.com/article/2913757/in-praise-of-the-utilities-folders-unsung-heroes.html">In praise of the Utilities folder's unsung heroes</a>
+				<a class="anchor" href="/linked/2015/06/in-praise-of-utilities-folder/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>If you think the apps insids the Utilities folder on Mac isn’t quite useful, you’d better think again.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://9to5mac.com/2015/06/17/apple-eff-transparent-data/">Apple receives praise from the EFF for its transparency regarding user data</a>
+				<a class="anchor" href="/linked/2015/06/apple-eff-awards/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>From 9to5Mac:</p>
+
+<blockquote>
+  <p>Apple this year has received praise from the EFF for how transparent it is when it comes to handling requests form government agencies and standing up for user rights and privacy.</p>
+</blockquote>
+
+<p>Good guy, Apple.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://arstechnica.com/information-technology/2015/06/the-web-is-getting-its-bytecode-webassembly/#p3">The Web is getting its bytecode: WebAssembly</a>
+				<a class="anchor" href="/linked/2015/06/WebAssembly/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>ArsTechnica has detailed information about WebAssembly:</p>
+
+<blockquote>
+  <p>WebAssembly, or wasm for short, is intended to be a portable bytecode that will be efficient for browsers to download and load, providing a more efficient target for compilers than plain JavaScript or even asm.js. Like, for example, .NET bytecode, wasm instructions operate on native machine types such as 32-bit integers, enabling efficient compilation. It’s also designed to be extensible, to make it easy to add, say, support for SIMD instruction sets like SSE and AVX.
+WebAssembly will include both a binary notation, that compilers will produce, and a corresponding text notation, suitable for display in debuggers or development environments. Early prototypes are already showing some of the expected advantages; the binary representation is 20 times faster to parse than the equivalent asm.js.</p>
+</blockquote>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://developer.apple.com/fonts/">San Francisco Fonts Are Now Available To Download</a>
+				<a class="anchor" href="/linked/2015/06/san-francisco-fonts-are-now-available-to-download/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Apple’s San Francisco fonts are now available to download for developers. They can now start to update their apps to include these fonts. This font is nicer than Helvetica Neue and I say so because I’ve used it on my jailbroken iPhone.</p>
+
+<p>You can also <a href="https://developer.apple.com/videos/wwdc/2015/?id=804">watch the video introduction here</a>.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://www.macstories.net/reviews/editorial-1-2-brings-powerful-new-text-editing-features-more-ios-automation/">Editorial 1.2 Brings Powerful New Text Editing Features, More iOS Automation</a>
+				<a class="anchor" href="/linked/2015/06/editorial-updates/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Federico Viticci’s on Macstories:</p>
+
+<blockquote>
+  <p>Features like browser tabs, folding, custom templates, preview themes, and better search make Editorial the undisputed king of Markdown text editing on iOS – an area where no other app can compete at this point. I would like to see a faster release cycle from Zorn – hopefully adopting iOS 9 multitasking and search won’t take long – but that doesn’t change the fact that Editorial continues to be the most powerful app for writing and automating Markdown on iOS – for <a href="http://www.macstories.net/stories/editorial-for-ipad-review/">all the reasons I covered in the past</a>.</p>
+</blockquote>
+
+<p>If you write a lot and need a powerful text editor on iOS then read Viticci’s review of Editorial. An instant buy.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/post/2015/06/hello-world.markdown/">Hello World! (Again?! Really?!)</a></h1>
+		
+
+		<div class="post-content"><p>Again? Really?!</p>
+
+<p>This is my third times for building a blog.</p>
+
+<p>Is it that hard?</p>
+</div>
+
+	</article>
+
+
+
+
+
+
+	<div class="postnavigation">
+
+		
+			
+				<a class="prev left" href="/page4/">&larr; Newer</a>
+			
+		
+
+		<span class="pages">Page 5 of 5</span>
+
+		
+			<span class="nope right">Older &rarr;</span>
+		
+
+	</div>
+
+    </div>
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2015 Hyperplex.
+  </footer>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+</body>
+</html>
