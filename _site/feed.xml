@@ -7,6 +7,20 @@
 		<atom:link href="http://hyperplex.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Former Apple artist Susan Kare joins Pinterest as a lead product designer</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;blockquote&gt;
+  &lt;p&gt;If you grew up using a Mac — or have any connection with computer graphics or design — the name Susan Kare will be familiar. She is the one who created the original Macintosh icons like the Lasso, the Grabber and the Paint Bucket, as well as the operating system’s typefaces like Chicago — which was also used for the iPod.&lt;/p&gt;
+
+  &lt;p&gt;Today, Pinterest has announced that Kare is joining its creative team as a product design lead. In this full-time permanent position, Kare will be one of the designers responsible for the interface and design of products for the Pinterest website and apps.  She will report to Bob Baxley, head of product design — also an Apple alum.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<pubDate>Sun, 02 Aug 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/08/former-apple-artist-susan-kare-joins-pinterest-as-a-lead-product-designer/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/08/former-apple-artist-susan-kare-joins-pinterest-as-a-lead-product-designer/</guid>
+			</item>
+		
+			<item>
 				<title>Apple Music Matches Files with Metadata Only, not Acoustic Fingerprinting</title>
 				<author>Daniel Aditya Istyana</author>
 				<description>&lt;p&gt;Kirk McElhearn:&lt;/p&gt;
@@ -157,21 +171,6 @@
 				<pubDate>Sat, 25 Jul 2015 16:07:56 +0700</pubDate>
 				<link>http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</link>
 				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</guid>
-			</item>
-		
-			<item>
-				<title>Plotting Apple</title>
-				<author>Daniel Aditya Istyana</author>
-				<description>&lt;p&gt;Dr. Drang has interesting takes on plotting Apple’s sales and revenue using Python/ Matplotlib code:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Every data point in the graph (except for the first three for each device) represents an average of the sales for four quarters: the current quarter and the previous three. The idea behind the averaging is to smooth out the strongly seasonal ups and downs in the raw quarterly data.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-				<pubDate>Fri, 24 Jul 2015 16:52:26 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/plotting-apple/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/plotting-apple/</guid>
 			</item>
 		
 	</channel>
