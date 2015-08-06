@@ -7,6 +7,59 @@
 		<atom:link href="http://hyperplex.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Get Additional Hours Usage From Your Mac by Using Safari</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;We all know and admit that Chrome is &lt;a href=&quot;http://www.w3schools.com/browsers/browsers_stats.asp&quot;&gt;the most popular browser&lt;/a&gt; in the world with approximately make 64.8% of internet visit. But there’s not a secret anymore that Chrome has issues with its memory management. Chrome. It eats your RAM and memory of your laptop/ PC and that’s why extensions such us &lt;a href=&quot;https://chrome.google.com/webstore/detail/klbibkeccnjlkjkiokjodocebajanakg&quot;&gt;The Great Suspender&lt;/a&gt; and &lt;a href=&quot;https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall&quot;&gt;OneTab&lt;/a&gt; exist to reduce this annoyances.&lt;/p&gt;
+
+&lt;p&gt;I use Chrome at work and the memory management issue on Chrome is really bad. It’s not just slowing Chrome itself but the entire computer and sometimes make other program not responding when I open too many tabs&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Since I use it on PC, there’s no problem with battery usage&lt;sup id=&quot;fnref:fn2&quot;&gt;&lt;a href=&quot;#fn:fn2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; but when you use it on PC or Mac you should think about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.getbatterybox.com/which-browser-is-the-most-energy-efficient-chrome-vs-safari-vs-firefox/&quot;&gt;BatteryBox recently published&lt;/a&gt; numbers from their experiment comparing power consumption of three major browser, Safari, Firefox, and Chrome on Macbook. The result, Safari is the most efficient than other two with average 6 hours and 21 minutes of total usage. Chrome, of course, gets on the third place with just 5 hours 8 min of total usage when you use it on Mac.&lt;/p&gt;
+
+&lt;p&gt;Not a surprise.&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&quot;http://macsparky.com/&quot;&gt;MacSparky&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Clearly, preserving battery life on all of its devices is a high priority for Apple. I’d venture to say that because Apple is the hardware vendor, preserving battery life always will be higher on Apple’s list than Google’s.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn1&quot;&gt;
+      &lt;p&gt;Less than 20 if it’s not too many &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn2&quot;&gt;
+      &lt;p&gt;Obviously &lt;a href=&quot;#fnref:fn2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 06 Aug 2015 10:50:00 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/08/get-additional-hours-usage-from-your-mac-by-using-safari/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/08/get-additional-hours-usage-from-your-mac-by-using-safari/</guid>
+			</item>
+		
+			<item>
+				<title>A Visual History of the iTunes Icon</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Reda Lemeden showed us how iTunes’ icon evolve through years. That memories.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 05 Aug 2015 22:47:10 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/08/a-visual-history-of-the-itunes-icon/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/08/a-visual-history-of-the-itunes-icon/</guid>
+			</item>
+		
+			<item>
+				<title>Radio Ad Script For The Apple IIC</title>
+				<author>Daniel Aditya Istyana</author>
+				<description>&lt;p&gt;Nostalgic!&lt;/p&gt;
+</description>
+				<pubDate>Wed, 05 Aug 2015 18:27:05 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/08/radio-ad-script-for-the-apple-iic/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/08/radio-ad-script-for-the-apple-iic/</guid>
+			</item>
+		
+			<item>
 				<title>Former Apple artist Susan Kare joins Pinterest as a lead product designer</title>
 				<author>Daniel Aditya Istyana</author>
 				<description>&lt;blockquote&gt;
@@ -111,66 +164,6 @@
 				<pubDate>Wed, 29 Jul 2015 00:00:00 +0700</pubDate>
 				<link>http://hyperplex.co/linked/2015/07/tip-hide-preference-panes-from-system-preferences/</link>
 				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/tip-hide-preference-panes-from-system-preferences/</guid>
-			</item>
-		
-			<item>
-				<title>The Apple Music Sad Story</title>
-				<author>Daniel Aditya Istyana</author>
-				<description>&lt;p&gt;&lt;a href=&quot;http://www.marco.org/2015/07/26/dont-order-the-fish&quot;&gt;Marco Arment&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;iTunes is designed by the Junk Drawer Method: when enough cruft has built up that somebody tells the team to redesign it, while also adding and heavily promoting these great new features in the UI that are really important to the company’s other interests and are absolutely non-negotiable, the only thing they can really do is hide all of the old complexity in new places.&lt;/p&gt;
-
-  &lt;p&gt;With the introduction of Apple Music, Apple confusingly introduced a confusing service backed by the iTunes Store that’s confusingly integrated into iTunes and the iOS Music app (don’t even get me started on that) and partially, maybe, mostly replaces the also very confusing and historically unreliable iTunes Match.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.loopinsight.com/2015/07/22/apple-music-is-a-nightmare-and-im-done-with-it/&quot;&gt;Jim Dalrymple loss his music library&lt;/a&gt; after Apple Music is launched to public. I never thought that Apple would get into this trouble before. I expected that Apple Music would be a great replacement of Spotify which I use before. Eventhough I’m not losing my music library, I have bad experience with Apple Music.&lt;/p&gt;
-
-&lt;p&gt;This bad experience happens on iOS Music app. When I find a great playlist as suggested by Apple Music, I added them to my playlist collection but it showed nothing. There’s no songs on that playlist, even there’s no playlist cover as seen on search result. Next, I tried to create my own playlist based on my favorite songs of various artist. I created the playlist and go to the For You tab. I searched various songs and add them on the newly created playlist around 30 songs. But, again, it showed no songs. Bad. Pretty Bad.&lt;/p&gt;
-
-&lt;p&gt;I know the purpose of baking Apple Music with iOS music apps but pardon me, can I categorize it as bloated software now? The interaction is confusing and there’s to many menu. Similarly with iTunes and I agree with Macro Arment on his blog post. I would love to see a new app, a standalone app for Apple Music on Mac.&lt;/p&gt;
-
-&lt;p&gt;Messing up with personal stuff like musics or photos is indeed a terrible idea. If Apple do a great job with Photos app on Mac, why not taking the same path for Apple Music?&lt;/p&gt;
-</description>
-				<pubDate>Tue, 28 Jul 2015 17:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/the-apple-music-sad-story/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/the-apple-music-sad-story/</guid>
-			</item>
-		
-			<item>
-				<title>Jekyll, Github, and Dropbox</title>
-				<author>Daniel Aditya Istyana</author>
-				<description>&lt;p&gt;As everyone knows, this blog run on &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and the nice part about that is I just need to write the post in markdown formatted text and Jekyll take the rest. Jekyll also has many plugins so you can “hack” it to suit your needs. If you need to showcase your favorite musics, gadgets you own, achievment you get, you can use Jekyll collections.&lt;/p&gt;
-
-&lt;p&gt;The other advantages using Jekyll is it works out of the box with Github Pages.You can host your site on &lt;a href=&quot;https://github.com&quot;&gt;Github&lt;/a&gt; and will just render it okay. Furthermore, it’s free&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Other than that, Github let you keep track your site using its versioning system. Sounds nice, huh?&lt;/p&gt;
-
-&lt;p&gt;Let’s put things together. My Jekyll site live in my Mac local folder. Since I’ve to work using PC at my day work I need a service to let me synchronize files between that two machines so I can still write blog posts from my work PC. &lt;a href=&quot;https://dropbox.com&quot;&gt;Dropbox&lt;/a&gt; to the rescue. Since I don’t want to put my entire site folder on my Dropbox so I just created symlink into it.&lt;/p&gt;
-
-&lt;p&gt;With all of this I have this site backup in Dropbox and Github server. I can now write on my PC at work, continue the drafts on my Mac and after I finish it, I have glynn command to deploy it to my hosting. Every changes is pushed to Github too and because I’m to lazy to type every single command into terminal, I make a &lt;a href=&quot;http://www.keyboardmaestro.com/main/&quot;&gt;Keyboard Maestro&lt;/a&gt; macros that hold every command into one and send a growl notifications when it finished.&lt;/p&gt;
-
-&lt;p&gt;So, is everyone happy now? Me, definitely.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:fn1&quot;&gt;
-      &lt;p&gt;Hey, who doesn’t want free things? &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-				<pubDate>Sat, 25 Jul 2015 17:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/jekyll-github-and-dropbox/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/jekyll-github-and-dropbox/</guid>
-			</item>
-		
-			<item>
-				<title>Explain like I’m five&#58; Jekyll collections</title>
-				<author>Daniel Aditya Istyana</author>
-				<description>&lt;p&gt;Ben Balter explaining how does collections in Jekyll work. I’m not using this features yet and haven’t figure out what collections I’m gonna add this site but let me put this here.&lt;/p&gt;
-</description>
-				<pubDate>Sat, 25 Jul 2015 16:07:56 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/explain-like-im-five-jekyll-collections/</guid>
 			</item>
 		
 	</channel>

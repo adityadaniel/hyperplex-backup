@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:title/
 category_dir: /categories/
 paginate: 10
 highlighter: pygments
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', '_glynn.yml']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', '_glynn.yml', 'env', 'production.sh']
 instagram_cache: true
 instagram_cache_directory: .instagram_cache
 gems: ['jekyll-twitter-plugin', 'jekyll-sitemap']

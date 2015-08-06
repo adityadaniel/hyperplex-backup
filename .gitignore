@@ -1,2 +1,5 @@
+env
+production.sh
 _glynn.yml
+_accesskey.yml
 .DS_Store
